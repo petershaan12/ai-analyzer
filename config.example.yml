@@ -1,0 +1,27 @@
+app_name: "AI PDF Analyzer"
+app_version: "1.0.0"
+debug: false
+
+# Database
+db_url: "mysql+pymysql://user:pass@localhost:3306/db_name"
+
+# AI Service
+ai_base_url: "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+ai_api_key: ""
+ai_model: "qwen-plus"
+
+# Limits
+max_pdf_size_mb: 10
+
+# Security & Integration
+jwt_key: ""
+api_role_url: ""
+cors_origins: "*"
+
+# SMTP settings
+smtp_host: "smtp.gmail.com"
+smtp_port: 465
+smtp_username: ""
+smtp_password: ""
+smtp_sender: ""
+smtp_secure: true
